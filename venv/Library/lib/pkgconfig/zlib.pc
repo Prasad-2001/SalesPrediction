@@ -1,0 +1,13 @@
+prefix=E:/Projects/SalesPrediction/venv/Library
+exec_prefix=E:/Projects/SalesPrediction/venv/Library
+libdir=E:/Projects/SalesPrediction/venv/Library/lib
+sharedlibdir=E:/Projects/SalesPrediction/venv/Library/lib
+includedir=E:/Projects/SalesPrediction/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
